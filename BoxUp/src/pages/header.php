@@ -11,7 +11,7 @@
 <body class="h-screen">
   <nav class=" border-gray-200 fixed top-0 z-[99999999999] w-full bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="http://localhost:8080/BoxUp/src/pages/home/home.php#" class="flex items-center">
+      <a href="http://localhost/BoxUp/src/pages/home/home.php" class="flex items-center">
         <h1 class="text-white font-medium text-2xl border-r border-white pr-2">BoxUP</h1>
         <?php
           if ($_SESSION["user"]["motorista"] == 1) {

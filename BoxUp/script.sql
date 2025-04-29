@@ -2,17 +2,17 @@ create database boxup;
 
 use boxup;
 
-CREATE TABLE usuario (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nome VARCHAR(250) NOT NULL,
-    senha VARCHAR(250) NOT NULL,
-    usuario VARCHAR(250) NOT NULL,
-    cpf CHAR(14) NOT NULL UNIQUE,
-    email VARCHAR(250) NOT NULL UNIQUE,
-    motorista TINYINT(1) NOT NULL,
-    preco INT NOT NULL
-);
-
+create table
+  usuario (
+    id int primary key auto_increment,
+    nome varchar(250) not null,
+    senha varchar(250) not null,
+    usuario varchar(250) not null,
+    cpf char(14) not null unique,
+    email varchar(250) not null unique,
+    motorista boolean not null,
+    preco int not null,
+  );
 
 create table
   mudanca (
